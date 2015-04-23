@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<link rel="stylesheet" href="mtmodal.css" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>uMhlathuze Municipality</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Modal -->
+    <link href="js/bootstrap-modal.js" rel="stylesheet" type="text/javascript">
+
+	<!-- Custom Styling -->
+    <link rel="stylesheet" type="text/css" href="css/carou2.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/mstroptions.css">
+		<link rel="stylesheet" type="text/css" href="css/iandtsorg.css">
+        <link rel="stylesheet" type="text/javascript" href="js/carou2.js">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Home.html"><i class="fa fa-home"></i>uMhlathuze Municipality</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <form id="signin" class="navbar-form navbar-right" role="form">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="email" type="email" class="form-control" name="email" value="" placeholder="Email Address">                                        
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password">                                        
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Login</button>
+                   </form>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="municipalportfolio.html" >Portfolio </a>
+                        
+                    </li>
+                    <li>
+                        <a href="blog-post.html">Blog</a>
+                       </li>
+                        
+
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators 
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>-->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/35.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>uMhlathuze Municipality</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/18.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/the_rand_banner.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <img class="img-responsive" src="img/s5_logo.png">
+                </h1>
+            </div>
+            <div class="col-md-4">
+                
+                        <div id="heads">
+<table><tr><td><img src="img/tumelo.jpg" class="img-rounded"></td>
+<td>
+<ul id="navlist">
+
+ <li><a href="#">Projects</a></li>
+ <li><a href="#">Appointments</a></li>
+ <li><a href="#">Expenditure to Date</a></li>
+  <li><a href="#">Key Performance Areas</a></li>
+ </ul>
+ </td>
+        <tr><td><p id="head">Mr. T Gopane<br>DMM<br>City of uMhlathuze</p></tr></td>
+        <td><a href="#" class="btn btn-large btn-block btn-success" type="button">Learn More</a></button></td>
+
+</table>
+</div>
+                        
+                    
+            </div>
+            <div class="col-md-4">
+                
+                        <div id="heads">
+<table><tr><td><img src="img/tumelo.jpg" class="img-rounded"></td>
+<td>
+<ul id="navlist">
+
+ <li><a href="#">Projects</a></li>
+ <li><a href="#">Appointments</a></li>
+ <li><a href="#">Expenditure to Date</a></li>
+  <li><a href="#">Key Performance Areas</a></li>
+ </ul>
+ </td>
+        <tr><td><p id="head">Mr. T Gopane<br>DMM<br>City of uMhlathuze</p></tr></td>
+        <td><a href="#" class="btn btn-large btn-block btn-success" type="button">Learn More</a></button></td>
+
+</table>
+</div>
+                        
+                    
+            </div>
+            <div class="col-md-4">
+                
+                        <div id="heads">
+<table><tr><td><img  src="img/tumelo.jpg" class="img-rounded"></td>
+<td>
+<ul id="navlist">
+
+ <li><a href="#">Projects</a></li>
+ <li><a href="#">Appointments</a></li>
+ <li><a href="#">Expenditure to Date</a></li>
+  <li><a href="#">Key Performance Areas</a></li>
+ </ul>
+ </td>
+        <tr><td><p id="head">Mr. T Gopane<br>DMM<br>City of uMhlathuze</p></tr></td>
+        <td><a href="#" class="btn btn-large btn-block btn-success" type="button">Learn More</a></button></td>
+
+</table>
+</div>
+                        
+                    
+            </div>
+        </div>
+			        <!-- Service Tabs -->
+			        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Departments</h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab">Infrastructure &amp; Tech. Services</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab">Community Services</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab">Financial Services</a>
+                    </li>
+                    <li class=""><a href="#service-four" data-toggle="tab">Corporate Services</a>
+                    </li>
+					          <li class=""><a href="#service-five" data-toggle="tab">City Development</a>
+                    </li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="service-one">
+                        <h4>Mission</h4>
+                        <p>The Department Infrastructure and Technical Services in the Municipality is charged with the responsibility to ensure inter alia provision, development,extension and maintenance of infrastructural networks and bulk supplies. This is response to the Constitutional mandate of“provision of services to communities in a sustainable manner and promotion of safe and healthy environment”</p>
+<div class="wrapper">
+                        <div class="organogram">
+
+  <figure class="org-chart cf">
+    <ul class="administration">
+      <li>                  
+        <ul class="director">
+          <li>
+            <a href="#"><span>Deputy Municipal Manager<br>Infrastructure & Technical Services<br>T. Gopane</span></a>
+            <ul class="subdirector">
+              <li><a href="#"><span>Secretary<br>Infrastructure & Technical Services<br>B. Nunn</span></a></li>
+            </ul>
+            <ul class="departments cf">                             
+              <li><a href="#"><span>Chief<br>Administration Officer<br>Infrastructure & Technical Services<br>S.Zondi</span></a></li>
+              
+              <li class="department dep-a">
+                <a href="#"><span>Head Of Section<br>Infrastructure & Technical Services<br>T. Gopane</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Manager Streetlights and LV Operations G. Cronje</span></a></li>
+                  <li class="section"><a href="#"><span>Manager Electricity HV/MV Operations C. Mokoena</span></a></li>
+                  <li class="section"><a href="#"><span>Manager Marketing and Customer Service B. Khanyile</span></li></a>
+                  <li class="section"><a href="#"><span>Manager Electricity Planning and Strategy D.Mohapi</span></li></a>
+                  <li class="section"><a href="TSmamane.html"><span>Manager Process Control systems T. Smamane</span></li></a>
+                  <li class="section"><a href="#"><span>Deputy Manager Energy Management L. Zondi</span></li></a>
+                  <li class="section"><a href="#"><span>Senior Administrative Officer Electricity Services B. Shandu</span></li></a>
+                  <li class="section"><a href="#"><span>Secretary Electricity Supply Service Z. Mntongana</span></li></a>
+                </ul>
+              </li>
+              <li class="department dep-b">
+                <a href="#"><span>Head Of Section Water and Sanitation Services Z. Pupuma</span></a>
+                <ul class="sections">
+                  
+                  <li class="section"><a href="#"><span>Manager Infrastructure Maintainance M. Nhleko </span></a></li>
+                  <li class="section"><a href="#"><span>Manager Plant Production and Operations S. Hlela</span></li></a>
+                  <li class="section"><a href="#"><span>Manager Water Demand Management S. Hlela</span></li></a>
+                  <li class="section"><a href="TSmamane.html"><span>Manager Scientific Services N. Maharaj IM</span></li></a>
+                  <li class="section"><a href="#"><span>Deputy Manager Customer Services T. Zondi</span></li></a>
+                  <li class="section"><a href="#"><span>Deputy Manager Rural Water and Sanitation Services P. Nxumalo</span></li></a>
+                  <li class="section"><a href="#"><span>Senior Administrative Officer Water &amp; V. Easthorpe</span></a></li>
+                  <li class="section"><a href="#"><span>Secretary Water and Sanitation Services H. Govender</span></li></a>
+                </ul>
+              </li>
+              <li class="department dep-c">
+                <a href="#"><span>Head Of Section<br>Transport Roads and Stormwater<br>J. Naidoo</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Manager Transporting Infrastructure Planning J. Schutte </span></a></li>
+                  <li class="section"><a href="#"><span>Manager Urban Roads and Rail Services A. Schutte</span></li></a>
+                  <li class="section"><a href="#"><span>Manager Intergrated Public Transport Operations (vacant)</span></li></a>
+                  <li class="section"><a href="TSmamane.html"><span>Deputy Manager Stormwater and Coastal Management A. Zaire</span></li></a>
+                  <li class="section"><a href="#"><span>Deputy Manager Rural Roads Operations T. Mngomezulu</span></li></a>
+                  <li class="section"><a href="#"><span>Senior Administrative Officer Transport, Roads & Stormwater R. Chetty</span></a></li>
+                  <li class="section"><a href="#"><span>Secretary Transport, Roads & Stormwater R. Haryprasad</span></li></a>
+                </ul>
+              </li>
+              <li class="department dep-d">
+                <a href="#"><span>Head Of Section<br>Engineering Services<br>B. Mbhamali</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Manager Infrastructure Asset Management P. Nhole (Acting) </span></a></li>
+                  <li class="section"><a href="#"><span>Manager Project Management Services N. Ndwandwa</span></li></a>
+                  <li class="section"><a href="#"><span>Manager Fleeet Transport Services E. De Jager (Acting)</span></li></a>
+                  <li class="section"><a href="TSmamane.html"><span>Deputy Manager Building and Structures A. Mbatha</span></li></a>
+                  <li class="section"><a href="#"><span>Senior Administrative Officer Transport, Roads & Stormwater D. Sheik</span></a></li>
+                  <li class="section"><a href="#"><span>Secretary Engineering Services S. Shangase</span></li></a>
+               </ul>
+              </li>
+              <li class="department dep-e">
+                <a href="#"><span>Department E</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Personel 1</span></a></li>
+                  <li class="section"><a href="#"><span>Personel 2</span></a></li>
+                  <li class="section"><a href="#"><span>Personel 3</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>   
+      </li>
+    </ul>       
+    <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
+    <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+  </figure>
+</div>
+</div>
+</div>
+
+
+                    <div class="tab-pane fade" id="service-two">
+                        <h4>Mission</h4>
+                        <p>To provide efficient and effective community services to the City of uMhlathuze  Municipality<br>* The overall management of the Community Services Directorate
+<br>* The management, monitoring and guiding of subordinate personnel.
+<br>* The implementation of integrated waste management plan  within the Municipality.
+<br>* Managing and monitoring of environmental health matters within the area of jurisdiction of the Municipality.</p>
+                        
+        </div>
+
+                    <div class="tab-pane fade" id="service-three">
+                        <h4>Mission</h4>
+                        <p>The Department Financial Services consists of two branches namely, Expenditure and Income, which are further divided into various divisions and sections to cover the spectrum of related functions and actions being delivered to the community.</p>
+                        
+        </div>
+
+                    <div class="tab-pane fade" id="service-four">
+                        <h4>Mission</h4>
+                        <p>Corporate Services involves activities that combine or consolidate certain enterprise-wide needed support services, provided based on specialized knowledge, best practices, and technology to serve internal, external customers and business partners.</p>
+                        
+        </div>
+
+                    <div class="tab-pane fade" id="service-five">
+                        <h4>Mission</h4>
+                        <p>City Development (CD) is the City of uMhlathuze department responsible for business development, real estate development, planning, permitting, and public housing.</p>
+                        
+        </div></div></div></div>
+
+            
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <br>
+        <hr/>
+            <div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+  <div class="holder col-sm-8">
+    <img class="img-responsive" src="img/2.jpg" alt="...">
+  </div>
+  <div class="col-sm-4">
+    <div class="carousel-caption">
+        <h2>Our Vision</h2>
+        <p>The City of uMhlathuze, as a port city, will offer improved quality of life for all its citizens through sustainable development. It will be a renowned centre for: Trade, Tourism and Nature-lovers, Coastal Recreation, Commerce, Industry, Forestry, and Agriculture.</p>
+       <!-- <button type="button" class="btn btn-default">Default</button> -->   
+    </div>
+  </div>
+</div>
+<div class="item">
+  <div class="holder col-sm-8">
+    <img class="img-responsive" src="img/21.jpg" alt="...">
+  </div>
+  <div class="col-sm-4">
+    <div class="carousel-caption1">
+        <h2>Our Mission</h2>
+        <p>To develop uMhlathuze as the industrial, commercial and administrative centre within the natural beauty of the region, providing a range of efficient municipal services thereby ensuring economic development, dynamic investment growth and an improvement in the quality of life for all.</p>
+        <!--<button type="button" class="btn btn-default">Default</button>   --> 
+    </div>
+  </div>
+</div>
+<div class="item">
+  <div class="holder col-sm-8">
+    <img class="img-responsive" src="img/14.jpg" alt="...">
+  </div>
+  <div class="col-sm-4">
+    <div class="carousel-caption2">
+        <h2> City Overview</h2>
+
+uMhlathuze Municipality is not only financially sound, but also offers investors and visitors first class facilities, services and infrastructure.
+
+Likewise it is home to the country’s largest deep-water port and an industrial development zone and enjoys the associated economic spin-offs.</p>
+          
+    </div>
+  </div>
+</div>
+</div>
+<div class="controllers col-sm-8 col-xs-12">
+<!-- Controls 
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>-->
+  <!-- Indicators --><!--
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+  </ol> 
+</div>
+</div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Sabelo Nxele 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
